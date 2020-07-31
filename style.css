@@ -20,8 +20,10 @@ body {
 .card {
     box-shadow: none;
     margin: 0;
-   text-align: center;
-   color: black;
+    background: black;
+    color: red;
+
+    
 }
 
 h4 {
@@ -33,6 +35,14 @@ h4 {
     align-items: center;
     justify-content: center;
     padding: 12px;
+    text-transform: uppercase;
+}
+
+h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 20px;
 }
 
 .card-image {
@@ -42,5 +52,5 @@ h4 {
 
   audio {
     width: 100%;
-    margin-top: 250px;
+    margin-top: 350px;
   }
